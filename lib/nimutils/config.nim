@@ -87,7 +87,6 @@ hint "Exec", false
 # --mm:atomicArc
 # --d:useNimRtl
 --threads:on
---cc:clang
 --experimental:notnil
 # --opt:size
 
