@@ -87,6 +87,10 @@ hint "Exec", false
 # --mm:atomicArc
 # --d:useNimRtl
 --threads:on
+when defined(windows):
+  --cc:vcc
+else:
+  --cc:clang
 --experimental:notnil
 # --opt:size
 
